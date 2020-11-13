@@ -1,0 +1,222 @@
+/* GENERAL */
+
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif   
+}
+
+body
+{
+    background-color:rgb(225,228,239);
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header
+{
+    background-color: rgb(60,90,153) ;
+    height:82px;
+    display:flex;
+    justify-content: center;  
+}
+
+/* HEADER PARTIE GAUCHE */
+
+h1
+{
+    margin-top: 20px;
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+
+/* HEADER PARTIE DROITE */
+
+header form
+{
+    display: flex;   
+    margin-left: 365px;
+    margin-top: 15px;
+}
+
+header label
+{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+}
+
+header input
+{
+   margin-right: 15px; 
+   margin-top: 5px;
+   margin-bottom: 4px;
+   height: 22px;
+   width: 150px;
+}
+
+#boutton1
+{
+    text-decoration: none;
+    height: 22px;
+    width: 75px;
+    line-height: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(66,103,178);
+    border: 1px solid rgb(41,72,125);
+    text-align: center;
+    margin-top: 21px;
+    margin-left: 20px;
+}
+
+#boutton1:hover
+{
+    background-color: rgb(60,90,153);
+}
+
+#oubli
+{
+    font-size: 12px;
+    text-decoration: none;
+    text-align: left;
+    color: rgb(143,180,216);
+}
+
+#oubli:hover
+{
+    border-bottom: 1px solid rgb(143,180,216); 
+}
+
+/* MAIN */
+
+main
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* MAIN PARTIE GAUCHE*/
+
+#partage
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(14,56,95);
+    margin-top: 20px;     
+}
+
+/* MAIN PARTIE DROITE */
+
+#ins
+{
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-left: 30px;
+    color: rgb(29,33,41);
+}
+
+#rap
+{
+    font-size: 1.2em;
+    padding-left: 30px;
+    margin-top: 0px;
+    color: rgb(29,33,41);
+    font-weight: 500;
+
+}
+
+#formulaire
+{
+   padding-left: 30px;
+   
+}
+   
+.long
+{
+    width: 410px;
+    height:40px ;
+    padding-left: 5px;
+    font-size: 1.3em;
+    border-radius: 5px;
+    border:rgb(189,199,216) solid 1px;        
+}
+
+.court
+{
+    padding-left: 5px;
+    margin-right: 10px;
+    width: 198px;
+    height: 40px;
+    font-size: 1.3em;
+    border-radius:  5px;
+    border:rgb(189,199,216) solid 1px;    
+}
+
+.date
+{
+    height: 30px;
+    border-color:rgb(189,199,216);
+    width: 64px;
+}
+
+#naiss
+{
+    color: #90949c;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+#genre
+{
+    color: #90949c;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+#radio
+{
+    font-size: 1.3em;
+}
+
+#conditions
+{
+    font-size: 0.7em;
+    width: 320px;
+    color: rgb(119,119,157);
+}
+
+a
+{
+   color: rgb(56,146,206);
+}
+
+#boutton2
+{
+    font-size: 1.3em;
+    text-align: center;
+    background-color:rgb(97,160,79);
+    border-radius: 5px;
+    color: white;
+    width: 198px;
+    height: 40px;
+    margin-top: 20px;
+    border: rgb(59,110,34) 1px;
+    box-shadow: 1px 1px 1px 1px rgb(59,110,34) ; 
+    cursor: pointer;
+}
+
+#page
+{
+    font-size: 0.9em;
+    color: rgb(102,102,102);
+    margin-top: 25px;
+}
